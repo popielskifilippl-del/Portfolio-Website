@@ -1,0 +1,386 @@
+.header_links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+
+div {
+    display: inline-block;
+
+}
+
+.Logo {
+
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    width: 75px;
+    height: 75px;
+}
+
+
+
+.footer_links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    position: fixed;
+    bottom: 0;
+
+}
+
+
+
+li {
+    margin: 0 15px;
+    list-style-type: none;
+
+
+}
+
+
+
+.photo {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    left: 900px;
+    top: 150px;
+
+
+}
+
+.introduction-text {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    margin-top:170px;
+}
+
+.text {
+    height: 80px;
+    font-size: 60px;
+    margin-left:80px;
+    margin-top:20px;
+    font-style: italic;
+    font-weight: bold;
+
+
+}
+
+
+.flickering-text span::before {
+    content: "Student";
+    color: #0EA5E9;
+    animation: words 10s infinite;
+    margin-left:80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.span {
+    margin-top:30px;
+}
+
+.typing-text span::after {
+    content: "";
+
+
+}
+
+
+
+@keyframes words {
+
+    0%,
+    20% {
+        content: "Student";
+    }
+
+    21%,
+    40% {
+        content: "Writer";
+    }
+
+    41%,
+    60% {
+        content: "Software Engineer";
+    }
+
+    61%,
+    80% {
+        content: "Interpreter";
+    }
+
+    81%,
+    100% {
+        content: "Translator";
+    }
+}
+
+.call_to_action {
+    background: #4F46E5;
+    color: #1E1E1E;
+    text-decoration: none;
+    border: 2px #4F46E5;
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 36px;
+    position: absolute;
+    left: 90px;
+    top: 500px;
+
+}
+
+.learn_about_me {
+    background: #4F46E5;
+    color: #1E1E1E;
+    text-decoration: none;
+    border: 2px #4F46E5;
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 36px;
+    position: absolute;
+    left: 350px;
+    top: 500px;
+
+}
+
+.body {
+    background-color: #F9C9A1;
+
+}
+
+.light_mode {
+    background-color: #F9C9A1
+}
+
+.dark_mode {
+    background-color: lightblue;
+}
+
+
+
+
+.button {
+    background: #4F46E5;
+    color: #1E1E1E;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.lower_button {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.subpage_button {
+    background: #4F46E5;
+    color: #1E1E1E;
+    text-decoration: none;
+    border: 2px #4F46E5;
+    border-radius: 12px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+
+.bullet_points {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    top: 100px;
+    margin: 40px;
+
+}
+
+.bullet_point {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:175px;
+
+}
+
+.bullet_point1 {
+    font-size: 20px;
+    padding: 20px;
+    border-style: none solid none;
+}
+
+
+.bullet_point2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+    margin-top: 25px;
+}
+
+.text_points {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+.subpage {
+    font-size: 16px;
+    font-style: italic;
+    padding-bottom: 80px;
+    padding-right: 1000px;
+    background-color: #F9C9A1;
+    position: relative;
+    top: 40px;
+}
+
+.subpage_header {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top:80px;
+    padding-bottom: 40px;
+    background-color: #F9C9A1;
+}
+
+.logo_skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    top: 800px;
+    margin: 40px;
+}
+
+.logo_size {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin: 40px;
+}
+
+.logo_source {
+    width: 100px;
+    height: 100px;
+}
+
+.logo_name {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.skills_introduction {
+    font-size: 48px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 700px;
+    margin-top:200px;
+    margin-bottom: 50px;
+}
+
+.contact_form {
+    margin-top: 120px;
+    margin-left:50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    gap:10px;
+
+}
+
+.label {
+    font-size:24px;
+    font-weight:bold;
+}
+
+.question_box {
+    width:250px;
+    gap:5px;
+    padding:5px;
+}
+.text_box {
+    gap:5px;
+    padding:5px;
+    width:500px;
+}
+
+.email_box {
+    width: 250px;
+    gap:5px;
+    padding:5px;
+}
+
+.form_button {
+    width:fit-content;
+}
+
+.input {
+    padding:10px;
+}
+
+.active_page {
+    background: #14cd06;
+    color: #1E1E1E;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
